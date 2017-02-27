@@ -42,13 +42,27 @@
 			<td>/cats/:id</td>
 			<td>GET</td>
 			<td>Shows info about one specific cat</td>
-			<td></td>
+			<td>Cat.findById()</td>
 		</tr>
-		<tr>
+		<tr class="warning">
 			<td>Edit</td>
 			<td>/cats/:id/edit</td>
 			<td>GET</td>
 			<td>Shows edit form for one spefic cat</td>
+			<td>Cat.findById()</td>
+		</tr>
+		<tr class="warning">
+			<td>Update</td>
+			<td>/cats/:id</td>
+			<td>PUT (requires override)</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr class="danger">
+			<td>Delete</td>
+			<td>/cats/:id</td>
+			<td>PUT (requires override)</td>
+			<td></td>
 			<td></td>
 		</tr>
 

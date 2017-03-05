@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>RESTful Routes Table</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
 <body>
@@ -55,15 +56,15 @@
 			<td>Update</td>
 			<td>/cats/:id</td>
 			<td>PUT (requires override)</td>
-			<td></td>
-			<td></td>
+			<td>Update a particular cat, and then redirects somewhere</td>
+			<td>Cat.findByIdAndUdate()</td>
 		</tr>
 		<tr class="danger">
 			<td>Delete</td>
 			<td>/cats/:id</td>
-			<td>PUT (requires override)</td>
-			<td></td>
-			<td></td>
+			<td>DELETE (requires override)</td>
+			<td>Deletes a particular cat, and then redirects somewhere</td>
+			<td>Cat.findByIdAndRemove()</td>
 		</tr>
 
 
